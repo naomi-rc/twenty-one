@@ -1,0 +1,71 @@
+body {
+	background-color: rgb(153, 0, 0);
+}
+
+.player {
+	height: 240px;
+    width: 210px;
+    border-radius: 15%;
+    border: 5px solid white;
+    float: left;
+    padding: 15px;
+    font-weight: bold;
+    margin: 20px 100px 0px 20px;
+}
+
+.cardpack {
+	height: 500px;
+    width: 200px;
+	background: url('images/card_back.png');
+
+	background-repeat: no-repeat;
+	background-size: 180px 280px;
+   	
+   	margin: 500px;
+    object-fit: cover;
+    float: left;
+    margin: 15px;
+}
+
+#myCards {
+	position: absolute;
+	bottom: 20%;
+	margin-left: 100px;
+}
+
+.card {
+	height: 200px;
+    width: 120px;
+	
+
+	background-repeat: no-repeat;
+	background-size: 120px 200px;
+   	
+   	margin: 500px;
+    object-fit: cover;
+    float: left;
+    margin: 15px;
+}
+
+.ops {
+	position: absolute;
+	bottom: 8%;
+}
+
+#hit {
+	left: 40%;
+}
+
+#pass {
+	left: 50%;
+}
+
+#newGame {
+	left: 80%;
+}
+
+#stats, #message {
+	font-size: 20px;
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
