@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="script.js" type="text/javascript"></script>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body onload="init()">
+		<div class="player" >
+			<div id="p1"></div>
+			<div id="p1outer"></div>
+			
+		</div>
+		<div class="player">
+			<div id="p2"></div>
+			<div id="p2outer"></div>
+		</div>
+		<div class="player">
+			<div id="p3"></div>
+			<div id="p3outer"></div>
+		</div>
+
+		<div class="cardpack">
+		</div>
+
+		<div id="message"></div>
+		<div id="stats"></div>
+		<button id="hit" class="ops btn btn-primary btn-lg" onclick="hitMe()">Hit me</button>
+		<button id="pass" class="ops btn btn-warning btn-lg" onclick="freeze()">Freeze</button>
+		<button id="newGame" class="ops btn btn-danger btn-lg" onclick="init()">New Game</button>
+
+		<div id="myCards"></div>
+	</body>
+</html>
